@@ -1,0 +1,28 @@
+<view class="container">
+<input class="search" type="text" confirm-type="search" placeholder="请搜索喜欢的商品"></input>
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" circular="true">
+    <view wx:for="{{swiperImg}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item.src}}" mode="aspectFill"></image>
+      </swiper-item>
+    </view>
+  </swiper>
+
+  <view class="nav">
+    <view class="menu" wx:for="{{navList}}" wx:key="index">
+      <image src="{{item.src}}"></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+</view>
+
+<text class="hot">热销蔬果</text>
+<view class="product">
+  <navigator url="/pages/detail/detail?id={{item.id}}" class="product_detail" wx:for="{{productList}}" wx:key="index">
+    <image src="{{item.src}}" mode="widthFix"></image>
+    <view class="info">
+      <text class="name">{{item.name}}</text>
+      <text class="price">¥{{item.price}}元</text>
+    </view>
+  </navigator>
+</view>
