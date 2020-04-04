@@ -10,6 +10,7 @@
 
   <view class="nav">
     <view class="menu" wx:for="{{navList}}" wx:key="index">
+    <navigator url="/pages/kind/kind?id={{item.id}}" class="product_type">
       <image src="{{item.src}}"></image>
       <text>{{item.title}}</text>
     </view>

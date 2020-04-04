@@ -105,6 +105,29 @@ const productList = [
   }
 ]
 
+const classList = [
+  {
+    id: 1,
+    name: "蔬菜",
+    src:"/images/timg.jpg"
+
+  },
+  {
+    id: 2,
+    name: "水果",
+    src: "/images/timg.jpg"
+  },
+  {
+    id: 3,
+    name: "肉类",
+    src: "/images/timg.jpg"
+  },
+  {
+    id: 4,
+    name: "鱼类",
+    src: "/images/timg.jpg"
+  }
+]
 function getProductList() {
   let list = [];
   for (var i = 0; i < productList.length; i++) {
@@ -118,6 +141,20 @@ function getProductList() {
   }
   return list;
 }
+
+function getClassList() {
+  let list=[];
+  for(var i=0; i<classList.length;i++)
+  {
+    let obj={};
+    obj.id=classList[i].id;
+    obj.name=classList[i].name;
+    obj.src=classList[i].src;
+    list.push(obj);
+  }
+  return list;
+}
+
 
 function getProductDetail(productId) {
   let message = {
@@ -136,5 +173,6 @@ function getProductDetail(productId) {
 
 module.exports = {
   getProductList: getProductList,
-  getProductDetail: getProductDetail
+  getProductDetail: getProductDetail,
+  getClassList:getClassList
 }
