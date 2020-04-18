@@ -108,24 +108,54 @@ const productList = [
 const classList = [
   {
     id: 1,
-    name: "蔬菜",
-    src:"/images/timg.jpg"
+    name: "精品好物",
+    src:"/images/精品好物.jpg"
 
   },
   {
     id: 2,
-    name: "水果",
-    src: "/images/timg.jpg"
+    name: "时令水果",
+    src: "/images/时令水果.jpg"
   },
   {
     id: 3,
-    name: "肉类",
-    src: "/images/timg.jpg"
+    name: "安心乳品",
+    src: "/images/安心乳品.jpg"
   },
   {
     id: 4,
-    name: "鱼类",
-    src: "/images/timg.jpg"
+    name: "海鲜水产",
+    src: "/images/海鲜水产.jpg"
+  },
+  {
+    id: 5,
+    name: "米面粮油",
+    src: "/images/米面粮油.jpg"
+  },
+  {
+    id: 6,
+    name: "酒饮冲调",
+    src: "/images/酒饮.jpg"
+  },
+  {
+    id: 7,
+    name: "肉禽蛋品",
+    src: "/images/肉禽蛋品.jpg"
+  },
+  {
+    id: 8,
+    name: "新鲜蔬菜",
+    src: "/images/新鲜蔬菜.jpg"
+  },
+  {
+    id: 9,
+    name: "熟食餐饮",
+    src: "/images/熟食餐饮.jpg"
+  },
+  {
+    id: 10,
+    name: "蜜饯干果",
+    src: "/images/蜜饯干果.jpg"
   }
 ]
 function getProductList() {

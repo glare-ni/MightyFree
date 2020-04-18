@@ -11,7 +11,7 @@
   <view class="nav">
     <view class="menu" wx:for="{{navList}}" wx:key="index">
       <image src="{{item.src}}"></image>
-      <text>{{item.title}}</text>
+      <text>{{item.name}}</text>
     </view>
   </view>
 </view>
