@@ -8,7 +8,7 @@
     "pages/cart/cart"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#576b95",
+    "navigationBarBackgroundColor": "#4ECE59",
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "生鲜超市",
     "backgroundColor": "#eeeeee",
@@ -17,7 +17,7 @@
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor": "#328EEB",
+    "selectedColor": "#4ECE59",
     "list": [
       {
         "pagePath": "pages/index/index",
